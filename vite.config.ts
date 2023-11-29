@@ -15,6 +15,7 @@ export default defineConfig({
       devOptions: {
         enabled: true
       },
+      includeAssets: ["**/*.{png}"],
       manifest: {
         short_name: 'Mensa App Robin',
         name: 'Die Mensa App von Robin',
